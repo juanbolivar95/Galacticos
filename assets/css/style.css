@@ -1,0 +1,893 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+/* ====================================================
+        main-galacticos
+    ==================================================== */
+
+.navbar {
+    text-align: center;
+    padding-bottom: 13px;
+    background: linear-gradient( to left, rgb(250 202 54) 0%, rgb(250 202 54) 12%, rgb(237 237 237) 47%, rgb(250 202 54) 100%) left bottom #777 no-repeat;
+    background-size: 100% 5px;
+}
+
+
+/* .sticky-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    -webkit-box-shadow: 0 0 9px 0 rgba(0, 0, 0, .3);
+    box-shadow: 0 0 9px 0 rgba(0, 0, 0, .3);
+    -webkit-animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
+    animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
+} */
+
+.navbar-brand {
+    width: 300px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#logo-galacticos .logo-main {
+    width: 80px;
+    height: 80px;
+}
+
+.navbar #main-galacticos {
+    width: 1200px;
+    border-left: 1px solid #ededed47;
+}
+
+.navbar #main-galacticos #main-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    border-bottom: 1px solid #ededed47;
+}
+
+.navbar #main-galacticos #main-bottom {
+    padding: 5px;
+}
+
+.navbar #main-galacticos #main-bottom .collapse {
+    justify-content: center;
+}
+
+.navbar #main-galacticos #main-top #social-networks span {
+    font-size: 15px;
+    margin: 20px;
+    font-weight: 700;
+    color: #faca36;
+}
+
+.navbar #main-galacticos #main-top #social-networks a {
+    font-size: 20px;
+    margin: 5px;
+    color: #faca36;
+}
+
+.navbar #main-galacticos #main-top #button-line {
+    border-radius: 5px;
+    padding: 5px;
+    background: #faca36;
+    box-shadow: 0 .125rem .25rem rgba(245, 243, 243, 0.774)!important;
+}
+
+.navbar #main-galacticos #main-top #button-line a {
+    color: #ffffff!important;
+    text-decoration: none;
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+    color: #faca36!important;
+    font-weight: 700;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #faca36!important;
+    border-bottom: 5px solid #f9d154;
+    margin-bottom: -18px;
+    font-weight: 700;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(255, 255, 255);
+}
+
+.banner {
+    background-image: url(../images/banner2.jpg);
+    background-size: 100% 657px;
+    background-attachment: fixed;
+    height: 529px;
+    background-repeat: no-repeat;
+}
+
+.overlay {
+    position: absolute;
+    top: 130px;
+    left: 0;
+    right: 0;
+    bottom: -3px;
+    content: '';
+    opacity: .4;
+    width: 100%;
+    background: #faca36;
+}
+
+
+/* ===============================================
+NEXT GAMES
+================================================== */
+
+#next-games {
+    padding: 2rem;
+    background-color: #faca36;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, .2), 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .12);
+}
+
+#next-games #title-next-games h3.title {
+    background: linear-gradient(0deg, #524040, #f5f1f1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#next-games #title-next-games h3.title span {
+    font-size: 22px;
+}
+
+#next-games #title-next-games h3.title-two {
+    font-size: 15px;
+}
+
+.date .date-day .number-date,
+.next-games #title-next-games-two,
+.card-body #title-next-games-two {
+    display: flex;
+}
+
+.next-games {
+    display: flex;
+    justify-content: space-between;
+}
+
+.next-games #title-next-games-two .games-vs {
+    font-size: 50px;
+    margin: 8px;
+    background: linear-gradient(0deg, #524040, #f5f1f1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #fff;
+    font-weight: bold;
+}
+
+.next-games #title-next-games-two .logo-games img {
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, .2), 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .12);
+}
+
+.next-games .date {
+    display: flex;
+    margin-left: 50px;
+}
+
+.next-games .date .date-day .number-date {
+    font-size: 50px;
+    margin-top: -15px;
+    background: linear-gradient(230deg, #b5b2ab, #63491c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #fff;
+    font-weight: bold;
+}
+
+.next-games .date .date-day .title-day,
+.next-games .date .date-hour .title-day,
+.next-games .date .date-minute .title-day,
+.next-games .date .date-seconds .title-day {
+    font-size: 13px;
+    /* font-weight: 500; */
+    margin: 8px;
+    background: linear-gradient(230deg, #b5b2ab, #63491c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #fff;
+    font-weight: bold;
+}
+
+.next-games .date .date-hour .number-date,
+.next-games .date .date-minute .number-date,
+.next-games .date .date-seconds .number-date {
+    display: flex;
+    font-size: 50px;
+    margin-top: -15px;
+    background: linear-gradient(230deg, #b5b2ab, #63491c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+/*================================================
+ CAROUSEL 
+ ================================================*/
+
+#carousel .owl-prev,
+#team .owl-prev {
+    right: 10px;
+}
+
+#carousel .owl-next,
+#team .owl-next {
+    right: -5px;
+}
+
+#carousel .owl-prev,
+#carousel .owl-next,
+#team .owl-prev,
+#team .owl-next {
+    position: absolute;
+    bottom: 100%;
+}
+
+#carousel .owl-prev span,
+#carousel .owl-next span,
+#team .owl-prev span,
+#team .owl-next span {
+    font-size: 60px;
+    color: #787878;
+}
+
+#carousel .owl-prev span:hover,
+#carousel .owl-next span:hover,
+#team .owl-prev span:hover,
+#team .owl-next span:hover {
+    color: #faca36;
+    border-radius: none;
+}
+
+#carousel .owl-next:focus,
+#carousel .owl-prev:focus,
+#team .owl-next:focus,
+#team .owl-prev:focus {
+    outline: none;
+}
+
+#carousel .owl-theme .owl-nav [class*="owl"]:hover,
+#team .owl-theme .owl-nav [class*="owl"]:hover {
+    background-color: transparent;
+}
+
+#carousel .owl-carousel.owl-drag .owl-item {
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, .2), 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .12);
+}
+
+#carousel .owl-carousel.owl-drag .owl-item:hover {
+    -webkit-box-shadow: -1px 10px 11px -1px rgba(0, 0, 0, 0.51);
+    -moz-box-shadow: -1px 10px 11px -1px rgba(0, 0, 0, 0.51);
+    box-shadow: -1px 10px 11px -1px rgba(0, 0, 0, 0.51);
+}
+
+#carousel {
+    padding: 1rem;
+}
+
+#carousel .card-header {
+    background-color: rgb(250 202 54)!important;
+    margin: -.1rem;
+    padding: .7rem 1.4rem .6rem;
+    display: flex;
+    color: #fff;
+}
+
+#carousel .card-header .title-left {
+    line-height: 1rem;
+    word-spacing: .6rem;
+}
+
+#carousel .card-header .title-left .day {
+    font-family: fcb-extra-bold, Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-weight: 700;
+    line-height: 3.2rem;
+    font-size: 3rem;
+    display: inline-block;
+}
+
+#carousel .card-header .title-left .info-day {
+    text-transform: uppercase;
+    display: inline-block;
+    word-spacing: normal;
+}
+
+#carousel .card-header .title-left .info-day .name-day {
+    font-family: fcb-extra-bold, Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-weight: 600;
+    display: block;
+    font-size: 19px;
+    line-height: 1.6rem;
+}
+
+#carousel .card-header .title-left .info-day .month-day {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    display: block;
+    font-size: 12px;
+    line-height: 1rem;
+}
+
+#carousel .card-body #title-next-games-two .games-vs {
+    display: flex;
+    font-size: 30px;
+    margin: 10px;
+    background: #faca36;
+    margin: 20px;
+    padding: 5px;
+    max-height: 57px;
+}
+
+#carousel .card-body #title-next-games-two .games-vs span {
+    margin-left: 5px;
+}
+
+#carousel .card-body .title-team {
+    text-align: center;
+}
+
+#carousel .card-body .title-team span {
+    text-align: center;
+    font-weight: 700;
+    margin-right: 8px;
+}
+
+#carousel .card-body .stadium {
+    text-align: center;
+    font-size: 10px;
+    color: #a29393;
+    font-weight: 900;
+}
+
+#carousel .card-footer {
+    background: transparent!important;
+}
+
+
+/*===========================================
+ DIRECTOS 
+ ====================================*/
+
+#directos {
+    background: #000000;
+    padding: 2rem;
+}
+
+#directos h1 {
+    text-align: center;
+    color: #fff;
+}
+
+#directos h1 span {
+    font-size: 60px;
+    color: rgb(250, 202, 54);
+    text-transform: uppercase;
+}
+
+#directos p {
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+#directos button {
+    text-transform: uppercase;
+}
+
+.flecha-directos {
+    width: 100px;
+    height: 50px;
+    margin: 0 auto;
+    position: relative;
+    top: -55px;
+    left: 4%;
+}
+
+.animatedColor {
+    color: white;
+}
+
+.flecha {
+    animation: arrow 1s ease-in-out infinite;
+    font-size: 20px;
+}
+
+.flecha:hover {
+    animation: arrow 1s ease-out infinite !important;
+    color: #229bf4;
+}
+
+@keyframes arrow {
+    0% {
+        transform: translate(0px, 50px);
+    }
+    50% {
+        transform: translate(0px, 60px);
+    }
+    100% {
+        transform: translate(0px, 50px);
+    }
+}
+
+
+/*===========================================
+ TEAM
+ ====================================*/
+
+#team {
+    padding: 5rem;
+}
+
+#team h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#team .hr-team {
+    position: relative;
+    left: 33%;
+    width: 400px;
+    border-top: 3px solid rgba(250, 202, 54);
+}
+
+#team .team-person-picture img {
+    height: 457px;
+}
+
+#team .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    opacity: .4;
+    width: 100%;
+    background: #060606;
+}
+
+.team-item img {
+    width: 100%;
+    height: 457px;
+}
+
+.team-item {
+    overflow: hidden;
+    position: relative;
+}
+
+.team-text {
+    position: absolute;
+    padding: 20px;
+    border: 1px solid #ffffff7a;
+    width: 100%;
+    bottom: 0;
+    transform: translateY(110%);
+    -webkit-transform: translateY(110%);
+    -ms-transform: translateY(110%);
+    transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out;
+    -ms-transition: all 0.5s ease-out;
+}
+
+.team-text p {
+    text-align: justify;
+}
+
+.team-item:hover .team-text {
+    transform: translateY(0%);
+    -webkit-transform: translateY(0%);
+    -ms-transform: translateY(0%);
+}
+
+.team-item:hover .team-info-person {
+    bottom: 30%;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+}
+
+.team-item:hover .team-img {
+    transform: scale(1.15);
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+}
+
+.team-img {
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+}
+
+.team-info-person {
+    position: absolute;
+    bottom: 0;
+    left: 25%;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    text-align: center;
+}
+
+#team .team-info-person-p .name-large {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 4rem;
+    font-style: italic;
+    color: hsl(0deg 72% 43%);
+    position: absolute;
+    line-height: 7rem;
+    left: 50%;
+    -webkit-transform: translateX(-52%);
+    transform: translateX(-52%);
+    bottom: 4rem;
+    text-transform: uppercase;
+}
+
+#team .team-info-person-p .name-large {
+    background: linear-gradient(180deg, hsl(0deg 100% 99% / 37%), hsla(0, 0%, 100%, 0) 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #19020200;
+    color: #fff;
+}
+
+#team .team-info-person-p .number,
+#team .team-info-person-p .name,
+#team .team-info-person .position {
+    font-family: 'Ubuntu', sans-serif;
+    margin-right: .6rem;
+    font-size: 1.1rem;
+    font-weight: 700;
+    line-height: 3rem;
+    background: linear-gradient(180deg, hsla(0, 0%, 100%, .5), rgba(0, 0, 0, .2)), linear-gradient(#fff, #fff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #fff;
+    font-style: italic;
+}
+
+#team .team-info-person-p .firt-name {
+    font-family: 'Ubuntu', sans-serif;
+    margin-right: .6rem;
+    font-size: 1.1rem;
+    line-height: 3rem;
+    background: linear-gradient(180deg, hsla(0, 0%, 100%, .5), rgba(0, 0, 0, .2)), linear-gradient(#fff, #fff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #fff;
+}
+
+#team .team-info-person .position {
+    font-family: 'Ubuntu', sans-serif;
+    margin-right: .6rem;
+    font-size: 1.1rem;
+    font-weight: 700;
+    line-height: 3rem;
+    background: linear-gradient(180deg, hsla(0, 0%, 100%, .5), rgba(0, 0, 0, .2)), linear-gradient(#fff, #fff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #fff;
+    position: relative;
+    bottom: 2rem;
+}
+
+.team-text .info-games {
+    display: inline-grid;
+    padding: 5px;
+    /* font-size: 20px; */
+    text-align: center;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.team-text .info-games .title-games {
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+    display: block;
+    text-shadow: 0 0.2rem 0.6rem rgba(0, 0, 0, .2);
+}
+
+.team-text .info-games .number-games {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3.2rem;
+    line-height: 3.2rem;
+}
+
+.team-text .info-games .year-games {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1rem;
+    line-height: 1.2;
+    color: #fff;
+    opacity: .6;
+    vertical-align: text-top;
+    white-space: pre-wrap;
+}
+
+
+/* ============================
+    SOCIAL NETWORKS 
+    ================================*/
+
+#social-networks-gal {
+    padding: 3rem;
+    background: #000000;
+}
+
+#social-networks-gal h3 {
+    text-align: center;
+    color: #ffffff;
+}
+
+#social-networks-gal h3 span {
+    font-size: 35px;
+    text-transform: uppercase;
+    color: rgb(250 201 56 / 48%);
+}
+
+#social-networks-gal .red-social-wha {
+    background: #00bb2d;
+    height: 150px;
+    color: #ffffff;
+    margin-right: 5px;
+}
+
+#social-networks-gal .red-social-fac {
+    background: #3b5998;
+    height: 150px;
+    color: #ffffff;
+    margin-right: 5px;
+}
+
+#social-networks-gal .red-social-twi {
+    background: #00acee;
+    height: 150px;
+    color: #ffffff;
+    margin-right: 5px;
+}
+
+#social-networks-gal .red-social-ins {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    height: 150px;
+    color: #ffffff;
+    margin-right: 5px;
+}
+
+#social-networks-gal .social-icon {
+    font-size: 25px;
+    padding: 5px;
+}
+
+#social-networks-gal .social-info {
+    margin-top: 25px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+#social-networks-gal .social-info a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#social-networks-gal .red-social-wha,
+#social-networks-gal .red-social-fac,
+#social-networks-gal .red-social-twi,
+#social-networks-gal .red-social-ins {
+    border: 1px solid #fff;
+    border-radius: 5px
+}
+
+#social-networks-gal .red-social-wha:hover,
+#social-networks-gal .red-social-fac:hover,
+#social-networks-gal .red-social-twi:hover,
+#social-networks-gal .red-social-ins:hover {
+    -webkit-box-shadow: 0px 1px 8px 2px rgb(253 250 250 / 51%);
+    -moz-box-shadow: 0px 1px 8px 2px rgb(253 250 250 / 51%);
+    box-shadow: 0px 1px 8px 2px rgb(253 250 250 / 51%);
+}
+
+
+/* .red-social-fac:hover {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+} */
+
+.red-social-fac {
+    overflow: hidden;
+}
+
+.footer-gala {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.footer-gala ul li a {
+    color: #ffffff3b!important;
+    text-decoration: none;
+}
+
+
+/* =========================================
+QUERYS
+============================================== */
+
+@media (max-width: 1199px) and (min-width: 992px) {
+    .overlay {
+        position: absolute;
+        top: 249px;
+        left: 0;
+        right: 0;
+        bottom: -140px;
+        content: '';
+        opacity: .4;
+        width: 100%;
+        background: #faca36;
+    }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+    /* ====================================================
+        main-galacticos
+    ==================================================== */
+    .navbar {
+        justify-content: center;
+    }
+    .navbar-brand {
+        width: 100%;
+    }
+    .navbar #main-galacticos #main-top {
+        display: grid;
+        justify-content: center;
+        padding: 12px;
+        border-bottom: 2px solid #ededed;
+    }
+    .navbar #main-galacticos #main-bottom {
+        padding: 5px;
+        text-align: center;
+    }
+    .navbar #main-galacticos {
+        width: 100%;
+        border-left: none;
+    }
+    .overlay {
+        position: absolute;
+        top: 249px;
+        left: 0;
+        right: 0;
+        bottom: -140px;
+        content: '';
+        opacity: .4;
+        width: 100%;
+        background: #faca36;
+    }
+    .next-games {
+        display: block;
+        justify-content: space-between;
+    }
+    .next-games .date {
+        margin-left: 0;
+    }
+    .no-js .owl-carousel,
+    .owl-carousel.owl-loaded {
+        display: block;
+    }
+    #carousel {
+        padding: 1rem;
+    }
+    #directos h1 span {
+        font-size: 47px;
+        color: rgb(250, 202, 54);
+        text-transform: uppercase;
+    }
+    #team {
+        padding: 1rem;
+    }
+    #team .hr-team {
+        position: relative;
+        left: 0;
+        width: 100%;
+        border-top: 3px solid rgba(250, 202, 54);
+    }
+    .flecha-directos {
+        left: 15%;
+    }
+    .team-text {
+        text-align: center;
+    }
+    .team-item:hover .team-info-person {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    /* ====================================================
+        main-galacticos
+    ==================================================== */
+    .navbar-brand {
+        width: 100%;
+    }
+    .navbar #main-galacticos #main-top {
+        display: grid;
+        justify-content: center;
+        padding: 12px;
+        border-bottom: 2px solid #ededed;
+    }
+    .navbar #main-galacticos #main-bottom {
+        padding: 5px;
+        text-align: center;
+    }
+    .navbar #main-galacticos {
+        width: 100%;
+        border-left: none;
+    }
+    .overlay {
+        position: absolute;
+        top: 249px;
+        left: 0;
+        right: 0;
+        bottom: -140px;
+        content: '';
+        opacity: .4;
+        width: 100%;
+        background: #faca36;
+    }
+    .next-games {
+        display: block;
+        justify-content: space-between;
+    }
+    .next-games .date {
+        margin-left: 0;
+    }
+    .no-js .owl-carousel,
+    .owl-carousel.owl-loaded {
+        display: block;
+    }
+    #carousel {
+        padding: 1rem;
+    }
+    #directos h1 span {
+        font-size: 47px;
+        color: rgb(250, 202, 54);
+        text-transform: uppercase;
+    }
+    #team {
+        padding: 1rem;
+    }
+    #team .hr-team {
+        position: relative;
+        left: 0;
+        width: 100%;
+        border-top: 3px solid rgba(250, 202, 54);
+    }
+    .flecha-directos {
+        left: 15%;
+    }
+    .team-text {
+        text-align: center;
+    }
+    .team-item:hover .team-info-person {
+        display: none;
+    }
+}
