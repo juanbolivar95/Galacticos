@@ -17,3 +17,31 @@ h5.players {
     margin-bottom: 4rem;
     margin-top: 4rem;
 }
+
+.nav-pills .nav-link.active {
+    color: #fff;
+    background: #faca36;
+}
+
+.nav-pills .nav-link {
+    border-radius: .2rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    word-spacing: normal;
+    text-transform: uppercase;
+    font-size: 0.6rem;
+    line-height: 1.4rem;
+    display: inline-block;
+    text-decoration: none;
+    color: #222;
+    padding: .8rem 1.6rem;
+    background-color: #f8f8f8;
+    box-shadow: 0 0.1rem 0.2rem 0 rgba(0, 0, 0, .15);
+    z-index: 10;
+    margin-left: 5px;
+}
+
+.nav-pills .nav-link:hover {
+    background: #faca36;
+    color: #fff;
+}
