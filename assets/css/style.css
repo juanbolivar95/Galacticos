@@ -75,8 +75,8 @@ preload
 
 
 /* ====================================================
-        main-galacticos
-    ==================================================== */
+    main-galacticos
+==================================================== */
 
 .navbar {
     text-align: center;
@@ -84,19 +84,6 @@ preload
     background: linear-gradient( to left, rgb(250 202 54) 0%, rgb(250 202 54) 12%, rgb(237 237 237) 47%, rgb(250 202 54) 100%) left bottom #777 no-repeat;
     background-size: 100% 5px;
 }
-
-
-/* .sticky-top {
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: 1030;
-    -webkit-box-shadow: 0 0 9px 0 rgba(0, 0, 0, .3);
-    box-shadow: 0 0 9px 0 rgba(0, 0, 0, .3);
-    -webkit-animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
-    animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
-} */
 
 .navbar-brand {
     width: 300px;
@@ -287,8 +274,8 @@ NEXT GAMES
 
 
 /*================================================
- CAROUSEL 
- ================================================*/
+CAROUSEL 
+================================================*/
 
 #carousel .owl-prev,
 #team .owl-prev {
@@ -430,8 +417,8 @@ NEXT GAMES
 
 
 /*===========================================
- DIRECTOS 
- ====================================*/
+DIRECTOS 
+====================================*/
 
 #directos {
     background: #000000;
@@ -496,8 +483,8 @@ NEXT GAMES
 
 
 /*===========================================
- TEAM
- ====================================*/
+TEAM
+====================================*/
 
 #team {
     padding: 5rem;
@@ -694,8 +681,8 @@ NEXT GAMES
 
 
 /* ============================
-    statistics
-    ================================*/
+statistics
+================================*/
 
 #statistics {
     padding: 5rem;
@@ -722,8 +709,8 @@ NEXT GAMES
 
 
 /* ============================
-    SOCIAL NETWORKS 
-    ================================*/
+SOCIAL NETWORKS 
+================================*/
 
 #social-networks-gal {
     padding: 3rem;
@@ -808,8 +795,8 @@ NEXT GAMES
 
 
 /* .red-social-fac:hover {
-    -webkit-transform: scale(1.3);
-    transform: scale(1.3);
+-webkit-transform: scale(1.3);
+transform: scale(1.3);
 } */
 
 .red-social-fac {
@@ -854,8 +841,8 @@ QUERYS
 
 @media (max-width: 991px) and (min-width: 768px) {
     /* ====================================================
-        main-galacticos
-    ==================================================== */
+    main-galacticos
+==================================================== */
     .navbar {
         justify-content: center;
         z-index: 1;
@@ -948,18 +935,18 @@ QUERYS
         justify-content: none;
     }
     .container-reload img {
-        left: 24%;
+        left: 0%;
     }
     .balon {
-        top: 48%;
-        left: 5%;
+        top: 35%;
+        left: -10%;
     }
 }
 
 @media (max-width: 767px) {
     /* ====================================================
-        main-galacticos
-    ==================================================== */
+    main-galacticos
+==================================================== */
     .navbar {
         justify-content: center;
         z-index: 1;
@@ -1052,13 +1039,21 @@ QUERYS
         justify-content: none;
     }
     .container-reload img {
-        top: 30%;
-        left: 15%;
+        left: 0%;
     }
     .balon {
-        top: 45%;
-        left: 5%;
+        top: 35%;
+        left: -10%;
     }
 }
 
-/
+@media(max-width: 320px) {
+    .balon {
+        top: 50%;
+        left: -5%;
+    }
+    .container-reload img {
+        top: 10%;
+        left: -50%;
+    }
+}
