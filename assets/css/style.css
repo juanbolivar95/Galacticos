@@ -112,7 +112,7 @@ body {
     background-repeat: no-repeat;
 }
 
-.overlay {
+.banner .overlay {
     position: absolute;
     top: 130px;
     left: 0;
@@ -121,7 +121,7 @@ body {
     content: '';
     opacity: .4;
     width: 100%;
-    background: #faca36;
+    background: #060606;
 }
 
 
@@ -562,7 +562,7 @@ NEXT GAMES
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     color: #fff;
-    font-style: italic;
+    /* font-style: italic; */
 }
 
 #team .team-info-person-p .firt-name {
@@ -624,6 +624,34 @@ NEXT GAMES
     opacity: .6;
     vertical-align: text-top;
     white-space: pre-wrap;
+}
+
+
+/* ============================
+    statistics
+    ================================*/
+
+#statistics {
+    padding: 5rem;
+    background-image: url(../images/banneresta.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 300px;
+}
+
+#statistics .text strong.number {
+    font-weight: 300;
+    font-size: 60px;
+    color: #ffffff;
+}
+
+#statistics .text span {
+    display: block;
+    font-size: 14px;
+    color: rgb(255 255 255 / 68%);
+    margin-bottom: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
 

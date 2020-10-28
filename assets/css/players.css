@@ -1,0 +1,19 @@
+h5.players {
+    background: linear-gradient(0deg, #000000, #faca36);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #fff;
+}
+
+h5.players {
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 3.4rem;
+    font-size: 2.6rem;
+    line-height: 4.2rem;
+    text-align: center;
+    color: #cd122d;
+    font-family: ;
+    font-weight: 400;
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+}
