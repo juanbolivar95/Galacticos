@@ -1039,10 +1039,10 @@ QUERYS
         justify-content: none;
     }
     .container-reload img {
-        left: 0%;
+        left: -45%;
     }
     .balon {
-        top: 35%;
+        top: 46%;
         left: -10%;
     }
 }
