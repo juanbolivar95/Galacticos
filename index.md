@@ -27,6 +27,18 @@
 
 <body>
 
+    <div class="container-reload" id="container-reload">
+        <div id="carga">
+
+        </div>
+        <img src="assets/images/player-min.png" alt="">
+        <div class="balon">
+            <a title="Saber más!" class="menuPpal suavizado" href="#ideas">
+                <i class="fas fa-futbol balon-icon animatedColor"></i>
+            </a>
+        </div>
+    </div>
+
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div id="logo-galacticos">
@@ -55,7 +67,7 @@
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div class="navbar-nav">
                             <a class="nav-link active" href="#">INICIO</a>
-                            <a class="nav-link" href="#">PLANTILLA</a>
+                            <a class="nav-link" href="./players.html">PLANTILLA</a>
                             <a class="nav-link" href="#">PARTIDOS</a>
                             <a class="nav-link" href="#">CONTACTO</a>
                         </div>
@@ -63,12 +75,9 @@
                 </div>
             </div>
         </nav>
-        <div class="banner">
-            <di class="overlay"></di>
-            <div id="resultados">
-
-            </div>
-        </div>
+        <section class="banner">
+            <div class="overlay"></div>
+        </section>
     </header>
 
     <section id="next-games">
@@ -616,9 +625,52 @@
         </div>
     </section>
 
+    <section id="statistics">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 justify-content-center">
+                    <div class="text-center">
+                        <div class="text">
+                            <span>Partidos</span>
+                            <strong class="number" data-number="20">7</strong>
+                            <span>jugados</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 justify-content-center">
+                    <div class="text-center">
+                        <div class="text">
+                            <span>Partidos</span>
+                            <strong class="number" data-number="20">5</strong>
+                            <span>Ganados</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 justify-content-center">
+                    <div class="text-center">
+                        <div class="text">
+                            <span>Partidos</span>
+                            <strong class="number" data-number="20">1</strong>
+                            <span>Empatados</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 justify-content-center">
+                    <div class="text-center">
+                        <div class="text">
+                            <span>Partidos</span>
+                            <strong class="number" data-number="20">1</strong>
+                            <span>Perdidos</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section id="social-networks-gal">
         <h3>Sigue a <span>galácticos</span> en las redes sociales</h3>
-        <div class="row justify-content-center mt-4">
+        <div class="row mt-4">
             <div class=" col-md-2 red-social-wha ">
                 <div class="social-icon ">
                     <i class="fab fa-whatsapp "></i>
@@ -867,7 +919,17 @@
     <script src="assets/js/bootstrap.bundle.min.js "></script>
     <script src="assets/js/owl.carousel.min.js "></script>
     <script src="assets/js/global.js "></script>
+    <script>
+        $(document).ready(function() {
 
+            /* ===========================================================
+                query preload
+            =============================================================*/
+            var container = document.getElementById('container-reload');
+            setTimeout(function() {
+                container.classList.add('cerrar');
+            }, 2500);
+        });
     </script>
 
 </body>

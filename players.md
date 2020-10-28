@@ -29,6 +29,18 @@
 
 <body>
 
+    <div class="container-reload" id="container-reload">
+        <div id="carga">
+
+        </div>
+        <img src="assets/images/player-min.png" alt="">
+        <div class="balon">
+            <a title="Saber más!" class="menuPpal suavizado" href="#ideas">
+                <i class="fas fa-futbol balon-icon animatedColor"></i>
+            </a>
+        </div>
+    </div>
+
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div id="logo-galacticos">
@@ -67,9 +79,7 @@
         </nav>
     </header>
 
-
-
-    <section id="team">
+    <section id="players">
         <div class="container">
             <div class="row justify-content-center">
                 <nav class="nav nav-pills flex-column flex-sm-row">
@@ -87,7 +97,7 @@
             </a>
 
             <div class="row mt-3">
-                <div class="col-md-4">
+                <div class="col-md-4 mb-2">
                     <div class="team-container">
                         <div class="team-item">
                             <img src="assets/images/equipo.jpg" alt="" class="team-img">
@@ -129,7 +139,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 mb-2">
                     <div class="team-container">
                         <div class="team-item">
                             <img src="assets/images/equipo.jpg" alt="" class="team-img">
@@ -178,7 +188,7 @@
             </a>
 
             <div class="row mt-3">
-                <div class="col-md-4">
+                <div class="col-md-4 mb-2">
                     <div class="team-container">
                         <div class="team-item">
                             <img src="assets/images/equipo.jpg" alt="" class="team-img">
@@ -220,7 +230,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 mb-2">
                     <div class="team-container">
                         <div class="team-item">
                             <img src="assets/images/equipo.jpg" alt="" class="team-img">
@@ -262,7 +272,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 mb-2">
                     <div class="team-container">
                         <div class="team-item">
                             <img src="assets/images/equipo.jpg" alt="" class="team-img">
@@ -304,7 +314,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 mt-3">
+                <div class="col-md-4 mb-2">
                     <div class="team-container">
                         <div class="team-item">
                             <img src="assets/images/equipo.jpg" alt="" class="team-img">
@@ -346,7 +356,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 mt-3">
+                <div class="col-md-4 mb-2">
                     <div class="team-container">
                         <div class="team-item">
                             <img src="assets/images/equipo.jpg" alt="" class="team-img">
@@ -388,7 +398,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 mt-3">
+                <div class="col-md-4 mb-2">
                     <div class="team-container">
                         <div class="team-item">
                             <img src="assets/images/equipo.jpg" alt="" class="team-img">
@@ -436,9 +446,8 @@
                 <h5 class="players text-center">Centrocampistas</h5>
             </a>
 
-
             <div class="row mt-3">
-                <div class="col-md-4">
+                <div class="col-md-4 mb-2">
                     <div class="team-container">
                         <div class="team-item">
                             <img src="assets/images/equipo.jpg" alt="" class="team-img">
@@ -480,7 +489,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 mb-2">
                     <div class="team-container">
                         <div class="team-item">
                             <img src="assets/images/equipo.jpg" alt="" class="team-img">
@@ -522,7 +531,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 mb-2">
                     <div class="team-container">
                         <div class="team-item">
                             <img src="assets/images/equipo.jpg" alt="" class="team-img">
@@ -564,7 +573,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 mt-3">
+                <div class="col-md-4 mb-2">
                     <div class="team-container">
                         <div class="team-item">
                             <img src="assets/images/equipo.jpg" alt="" class="team-img">
@@ -606,7 +615,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 mt-3">
+                <div class="col-md-4 mb-2">
                     <div class="team-container">
                         <div class="team-item">
                             <img src="assets/images/equipo.jpg" alt="" class="team-img">
@@ -648,7 +657,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 mt-3">
+                <div class="col-md-4 mb-2">
                     <div class="team-container">
                         <div class="team-item">
                             <img src="assets/images/equipo.jpg" alt="" class="team-img">
@@ -696,7 +705,7 @@
             </a>
 
             <div class="row mt-3">
-                <div class="col-md-4">
+                <div class="col-md-4 mb-2">
                     <div class="team-container">
                         <div class="team-item">
                             <img src="assets/images/equipo.jpg" alt="" class="team-img">
@@ -738,7 +747,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 mb-2">
                     <div class="team-container">
                         <div class="team-item">
                             <img src="assets/images/equipo.jpg" alt="" class="team-img">
@@ -780,7 +789,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 mb-2">
                     <div class="team-container">
                         <div class="team-item">
                             <img src="assets/images/equipo.jpg" alt="" class="team-img">
@@ -822,7 +831,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 mt-3">
+                <div class="col-md-4 mb-2">
                     <div class="team-container">
                         <div class="team-item">
                             <img src="assets/images/equipo.jpg" alt="" class="team-img">
@@ -864,7 +873,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 mt-3">
+                <div class="col-md-4 mb-2">
                     <div class="team-container">
                         <div class="team-item">
                             <img src="assets/images/equipo.jpg" alt="" class="team-img">
@@ -906,7 +915,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 mt-3">
+                <div class="col-md-4 mb-2">
                     <div class="team-container">
                         <div class="team-item">
                             <img src="assets/images/equipo.jpg" alt="" class="team-img">
@@ -953,8 +962,6 @@
             <a name="tecnico">
                 <h5 class="players text-center">Directo Tecnico</h5>
             </a>
-
-
             <div class="row mt-3">
                 <div class="col-md-4">
                     <div class="team-container">
@@ -1004,7 +1011,7 @@
                 <h5 class="players text-center">Comentaristas</h5>
             </a>
             <div class="row mt-3">
-                <div class="col-md-4">
+                <div class="col-md-4 mb-2">
                     <div class="team-container">
                         <div class="team-item">
                             <img src="assets/images/equipo.jpg" alt="" class="team-img">
@@ -1046,7 +1053,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 mb-2">
                     <div class="team-container">
                         <div class="team-item">
                             <img src="assets/images/equipo.jpg" alt="" class="team-img">

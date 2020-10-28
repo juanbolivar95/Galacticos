@@ -8,6 +8,72 @@ body {
 }
 
 
+/* ============================
+preload
+===================== */
+
+.container-reload {
+    background-color: rgba(0, 0, 0, .9);
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    -webkit-transition: all 3s ease;
+    -o-transition: all 3s ease;
+    transition: all 3s ease;
+    z-index: 10000;
+}
+
+.balon {
+    width: 100px;
+    height: 50px;
+    margin: 0 auto;
+    position: relative;
+    top: 40%;
+    left: 5%;
+}
+
+.animatedColor {
+    color: white;
+}
+
+.balon-icon {
+    animation: arrow .8s ease-in-out infinite;
+    font-size: 4rem;
+    color: #fff!important;
+}
+
+.balon-icon:hover {
+    animation: arrow 1s ease-out infinite !important;
+    color: #229bf4;
+}
+
+.container-reload img {
+    position: absolute;
+    top: 15%;
+    left: 32%;
+    right: 0;
+    bottom: 0;
+    height: 408px;
+}
+
+@keyframes arrow {
+    0% {
+        transform: translate(0px, 50px);
+    }
+    50% {
+        transform: translate(0px, 80px);
+    }
+    100% {
+        transform: translate(0px, 50px);
+    }
+}
+
+.cerrar {
+    transform: translateY(-100%);
+    transition: all 0.5s;
+}
+
+
 /* ====================================================
         main-galacticos
     ==================================================== */
@@ -675,6 +741,10 @@ NEXT GAMES
     color: rgb(250 201 56 / 48%);
 }
 
+#social-networks-gal .row {
+    justify-content: center;
+}
+
 #social-networks-gal .red-social-wha {
     background: #00bb2d;
     height: 150px;
@@ -762,16 +832,23 @@ QUERYS
 ============================================== */
 
 @media (max-width: 1199px) and (min-width: 992px) {
-    .overlay {
+    .banner .overlay {
         position: absolute;
-        top: 249px;
+        top: 130px;
         left: 0;
         right: 0;
-        bottom: -140px;
+        bottom: 110px;
         content: '';
         opacity: .4;
         width: 100%;
-        background: #faca36;
+        background: #060606;
+    }
+    .container-reload img {
+        left: 30%;
+    }
+    .balon {
+        top: 49%;
+        left: 6%;
     }
 }
 
@@ -781,6 +858,7 @@ QUERYS
     ==================================================== */
     .navbar {
         justify-content: center;
+        z-index: 1;
     }
     .navbar-brand {
         width: 100%;
@@ -799,7 +877,14 @@ QUERYS
         width: 100%;
         border-left: none;
     }
-    .overlay {
+    .banner {
+        background-image: url(../images/banner2.jpg);
+        background-size: 100% 533px;
+        background-attachment: scroll;
+        height: 529px;
+        background-repeat: no-repeat;
+    }
+    .banner .overlay {
         position: absolute;
         top: 249px;
         left: 0;
@@ -838,14 +923,36 @@ QUERYS
         width: 100%;
         border-top: 3px solid rgba(250, 202, 54);
     }
+    .team-info-person {
+        left: 10%;
+    }
     .flecha-directos {
-        left: 15%;
+        left: 5%;
     }
     .team-text {
         text-align: center;
     }
     .team-item:hover .team-info-person {
         display: none;
+    }
+    #statistics {
+        height: auto;
+    }
+    #social-networks-gal .red-social-wha,
+    #social-networks-gal .red-social-fac,
+    #social-networks-gal .red-social-twi,
+    #social-networks-gal .red-social-ins {
+        max-width: 150px;
+    }
+    #social-networks-gal .row {
+        justify-content: none;
+    }
+    .container-reload img {
+        left: 24%;
+    }
+    .balon {
+        top: 48%;
+        left: 5%;
     }
 }
 
@@ -853,6 +960,10 @@ QUERYS
     /* ====================================================
         main-galacticos
     ==================================================== */
+    .navbar {
+        justify-content: center;
+        z-index: 1;
+    }
     .navbar-brand {
         width: 100%;
     }
@@ -870,7 +981,14 @@ QUERYS
         width: 100%;
         border-left: none;
     }
-    .overlay {
+    .banner {
+        background-image: url(../images/banner2.jpg);
+        background-size: 100% 533px;
+        background-attachment: scroll;
+        height: 529px;
+        background-repeat: no-repeat;
+    }
+    .banner .overlay {
         position: absolute;
         top: 249px;
         left: 0;
@@ -909,8 +1027,11 @@ QUERYS
         width: 100%;
         border-top: 3px solid rgba(250, 202, 54);
     }
+    .team-info-person {
+        left: 10%;
+    }
     .flecha-directos {
-        left: 15%;
+        left: 6%;
     }
     .team-text {
         text-align: center;
@@ -918,4 +1039,26 @@ QUERYS
     .team-item:hover .team-info-person {
         display: none;
     }
+    #statistics {
+        height: auto;
+    }
+    #social-networks-gal .red-social-wha,
+    #social-networks-gal .red-social-fac,
+    #social-networks-gal .red-social-twi,
+    #social-networks-gal .red-social-ins {
+        max-width: 150px;
+    }
+    #social-networks-gal .row {
+        justify-content: none;
+    }
+    .container-reload img {
+        top: 30%;
+        left: 15%;
+    }
+    .balon {
+        top: 45%;
+        left: 5%;
+    }
 }
+
+/

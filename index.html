@@ -27,6 +27,18 @@
 
 <body>
 
+    <div class="container-reload" id="container-reload">
+        <div id="carga">
+
+        </div>
+        <img src="assets/images/player-min.png" alt="">
+        <div class="balon">
+            <a title="Saber más!" class="menuPpal suavizado" href="#ideas">
+                <i class="fas fa-futbol balon-icon animatedColor"></i>
+            </a>
+        </div>
+    </div>
+
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div id="logo-galacticos">
@@ -658,7 +670,7 @@
 
     <section id="social-networks-gal">
         <h3>Sigue a <span>galácticos</span> en las redes sociales</h3>
-        <div class="row justify-content-center mt-4">
+        <div class="row mt-4">
             <div class=" col-md-2 red-social-wha ">
                 <div class="social-icon ">
                     <i class="fab fa-whatsapp "></i>
@@ -907,7 +919,17 @@
     <script src="assets/js/bootstrap.bundle.min.js "></script>
     <script src="assets/js/owl.carousel.min.js "></script>
     <script src="assets/js/global.js "></script>
+    <script>
+        $(document).ready(function() {
 
+            /* ===========================================================
+                query preload
+            =============================================================*/
+            var container = document.getElementById('container-reload');
+            setTimeout(function() {
+                container.classList.add('cerrar');
+            }, 2500);
+        });
     </script>
 
 </body>
