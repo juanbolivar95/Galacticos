@@ -8,72 +8,6 @@ body {
 }
 
 
-/* ============================
-preload
-===================== */
-
-.container-reload {
-    background-color: rgba(0, 0, 0, .9);
-    height: 100%;
-    width: 100%;
-    position: fixed;
-    -webkit-transition: all 3s ease;
-    -o-transition: all 3s ease;
-    transition: all 3s ease;
-    z-index: 10000;
-}
-
-.balon {
-    width: 100px;
-    height: 50px;
-    margin: 0 auto;
-    position: relative;
-    top: 40%;
-    left: 5%;
-}
-
-.animatedColor {
-    color: white;
-}
-
-.balon-icon {
-    animation: arrow .8s ease-in-out infinite;
-    font-size: 4rem;
-    color: #fff!important;
-}
-
-.balon-icon:hover {
-    animation: arrow 1s ease-out infinite !important;
-    color: #229bf4;
-}
-
-.container-reload img {
-    position: absolute;
-    top: 15%;
-    left: 32%;
-    right: 0;
-    bottom: 0;
-    height: 408px;
-}
-
-@keyframes arrow {
-    0% {
-        transform: translate(0px, 50px);
-    }
-    50% {
-        transform: translate(0px, 80px);
-    }
-    100% {
-        transform: translate(0px, 50px);
-    }
-}
-
-.cerrar {
-    transform: translateY(-100%);
-    transition: all 0.5s;
-}
-
-
 /* ====================================================
     main-galacticos
 ==================================================== */
@@ -830,13 +764,6 @@ QUERYS
         width: 100%;
         background: #060606;
     }
-    .container-reload img {
-        left: 30%;
-    }
-    .balon {
-        top: 49%;
-        left: 6%;
-    }
 }
 
 @media (max-width: 991px) and (min-width: 768px) {
@@ -933,13 +860,6 @@ QUERYS
     }
     #social-networks-gal .row {
         justify-content: none;
-    }
-    .container-reload img {
-        left: 0%;
-    }
-    .balon {
-        top: 35%;
-        left: -10%;
     }
 }
 
@@ -1038,16 +958,10 @@ QUERYS
     #social-networks-gal .row {
         justify-content: none;
     }
-    .container-reload img {
-        left: -30%;
-    }
-    .balon {
-        top: 40%;
-        left: -4%;
-    }
 }
 
-@media(max-width: 320px) {
+
+/* @media(max-width: 320px) {
     .balon {
         top: 50%;
         left: -5%;
@@ -1056,4 +970,4 @@ QUERYS
         top: 10%;
         left: -50%;
     }
-}
+} */
