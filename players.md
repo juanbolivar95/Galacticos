@@ -22,6 +22,7 @@
 
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/players.css">
+    <link rel="stylesheet" href="assets/css/preload.css">
 
     <title>galácticos</title>
 </head>
@@ -33,11 +34,12 @@
         <div id="carga">
 
         </div>
-        <img src="assets/images/player-min.png" alt="">
+
         <div class="balon">
-            <a title="Saber más!" class="menuPpal suavizado" href="#ideas">
-                <i class="fas fa-futbol balon-icon animatedColor"></i>
-            </a>
+
+            <i class="fas fa-futbol balon-icon animatedColor"></i>
+            <img src="assets/images/player-min.png" alt="">
+
         </div>
     </div>
 
@@ -1412,6 +1414,14 @@
                 }, 2000);
                 return false;
             });
+
+            /* ===========================================================
+                query preload
+            =============================================================*/
+            var container = document.getElementById('container-reload');
+            setTimeout(function() {
+                container.classList.add('cerrar');
+            }, 2500);
         });
     </script>
     </script>
