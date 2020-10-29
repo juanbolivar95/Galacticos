@@ -1,0 +1,36 @@
+#contact {
+    padding: 5rem;
+}
+
+#contact .container {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 15px 20px 0px rgb(255 193 7 / 48%);
+}
+
+#contact .contact-form {
+    padding: 20px;
+    background-color: #f8f8f8;
+    box-shadow: 0 0.1rem 0.2rem 0 rgba(0, 0, 0, .15);
+}
+
+#contact .banner-sec {
+    background: url(../images/equipo.jpg) no-repeat left bottom;
+    background-size: cover;
+    min-height: 500px;
+    border-radius: 0 10px 10px 0;
+    padding: 0;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    opacity: .4;
+    width: 100%;
+    background: #060606;
+    border-radius: 5px;
+}

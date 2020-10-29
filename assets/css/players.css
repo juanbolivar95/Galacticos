@@ -246,6 +246,12 @@ h5.players {
 
 @media (max-width: 767px) {
     #players .team-info-person {
-        left: 25%;
+        left: 18%;
+    }
+    #players {
+        padding: 0;
+    }
+    .nav {
+        margin-top: 15px;
     }
 }
