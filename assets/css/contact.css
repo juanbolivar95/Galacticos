@@ -34,3 +34,18 @@
     background: #060606;
     border-radius: 5px;
 }
+
+@media (max-width: 991px) and (min-width: 768px) {
+    #contact {
+        padding: 2rem;
+    }
+}
+
+@media (max-width: 767px) {
+    #contact {
+        padding: 0;
+    }
+    #contact .banner-sec {
+        display: none;
+    }
+}
