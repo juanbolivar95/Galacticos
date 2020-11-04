@@ -43,47 +43,47 @@
         </div>
     </div>
 
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div id="logo-galacticos">
-                <a class="navbar-brand" href="#">
-                    <img src="assets/images/logo.png" class="img-fluid logo-main" alt=""> GALÁCTICOS
-                </a>
-            </div>
-            <div id="main-galacticos">
-                <div id="main-top">
-                    <div id="social-networks">
-                        <span>SIGUENOS</span>
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-youtube"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                    </div>
-                    <div id="button-line">
-                        <a href="">VER FUTBOL EN LINEA</a>
-                    </div>
-
+    <!-- <header> -->
+    <nav class="nav navbar navbar-expand-lg navbar-dark bg-dark">
+        <div id="logo-galacticos">
+            <a class="navbar-brand" href="#">
+                <img src="assets/images/logo.png" class="img-fluid logo-main" alt=""> GALÁCTICOS
+            </a>
+        </div>
+        <div id="main-galacticos">
+            <div id="main-top">
+                <div id="social-networks">
+                    <span>SIGUENOS</span>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
                 </div>
-                <div id="main-bottom">
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <div id="button-line">
+                    <a href="">VER FUTBOL EN LINEA</a>
+                </div>
+
+            </div>
+            <div id="main-bottom">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                       </button>
-                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                        <div class="navbar-nav">
-                            <a class="nav-link active" href="./index.html">INICIO</a>
-                            <a class="nav-link" href="#">PLANTILLA</a>
-                            <a class="nav-link" href="#">PARTIDOS</a>
-                            <a class="nav-link" href="#">CONTACTO</a>
-                        </div>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" href="./index.html">INICIO</a>
+                        <a class="nav-link active" href="./players.html">JUGADORES</a>
+                        <a class="nav-link" href="#">PARTIDOS</a>
+                        <a class="nav-link" href="./contact.html">CONTACTO</a>
                     </div>
                 </div>
             </div>
-        </nav>
-    </header>
+        </div>
+    </nav>
+    <!-- </header> -->
 
     <section id="players">
         <div class="container">
-            <div class="row justify-content-center">
+            <div class="nav-player row justify-content-center">
                 <nav class="nav nav-pills flex-column flex-sm-row">
                     <a class="flex-sm-fill text-sm-center nav-link active" href="#porteros">Porteros</a>
                     <a class="flex-sm-fill text-sm-center nav-link" href="#defensas">Defensas</a>
@@ -1399,31 +1399,6 @@
     <script src="assets/js/bootstrap.bundle.min.js "></script>
     <script src="assets/js/owl.carousel.min.js "></script>
     <script src="assets/js/global.js "></script>
-    <script>
-        $(document).ready(function() {
-            $('a[href^="#"]').click(function() {
-                var destino = $(this.hash);
-                if (destino.length == 0) {
-                    destino = $('a[name="' + this.hash.substr(1) + '"]');
-                }
-                if (destino.length == 0) {
-                    destino = $('html');
-                }
-                $('html, body').animate({
-                    scrollTop: destino.offset().top
-                }, 2000);
-                return false;
-            });
-
-            /* ===========================================================
-                query preload
-            =============================================================*/
-            var container = document.getElementById('container-reload');
-            setTimeout(function() {
-                container.classList.add('cerrar');
-            }, 2500);
-        });
-    </script>
     </script>
 
 </body>
