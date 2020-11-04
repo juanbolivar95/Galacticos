@@ -1,6 +1,5 @@
 $(document).ready(function() {
 
-
     /* ===========================================================
         query preload
     =============================================================*/
@@ -14,16 +13,43 @@ $(document).ready(function() {
     /* ===========================================================
      main scroll
     =============================================================*/
+    var pathname = window.location.pathname;
+    var filepath = pathname;
+    var filenameWithExtension = filepath.replace(/^.*[\\\/]/, '');
 
-    $(window).scroll(function() {
-        var winTop = $(window).scrollTop();
-        if (winTop >= 500) {
-            $("nav").addClass("sticky-top");
-        } else {
-            $("nav").removeClass("sticky-top");
-        }
-    });
-
+    if (filenameWithExtension == 'players.html') {
+        $(window).scroll(function() {
+            if (window.matchMedia("(max-width: 767px)").matches) {
+                var winTop = $(window).scrollTop();
+                if (winTop >= 500) {
+                    $("div.nav-player").removeClass("sticky-top-players");
+                }
+            } else {
+                var winTop = $(window).scrollTop();
+                if (winTop >= 500) {
+                    $("div.nav-player").addClass("sticky-top-players");
+                } else {
+                    $("div.nav-player").removeClass("sticky-top-players");
+                }
+            }
+        });
+    } else {
+        $(window).scroll(function() {
+            if (window.matchMedia("(max-width: 767px)").matches) {
+                var winTop = $(window).scrollTop();
+                if (winTop >= 500) {
+                    $("nav").removeClass("sticky-top");
+                }
+            } else {
+                var winTop = $(window).scrollTop();
+                if (winTop >= 500) {
+                    $("nav").addClass("sticky-top");
+                } else {
+                    $("nav").removeClass("sticky-top");
+                }
+            }
+        });
+    }
 
     /* ===========================================================
      carousel
@@ -63,8 +89,24 @@ $(document).ready(function() {
             destino = $('html');
         }
         $('html, body').animate({
-            scrollTop: destino.offset().top
+            scrollTop: destino.offset().top - 80
         }, 2000);
         return false;
     });
-})
+
+
+    /*===============================================================
+    numeros en movimientos statistics
+    =================================================================*/
+
+    $('[data-toggle="counter-up"]').counterUp({
+        delay: 10,
+        time: 1000
+    });
+
+    if (jQuery().counterUp) {
+        $('[data-counter-up]').counterUp({
+            delay: 20,
+        });
+    }
+});

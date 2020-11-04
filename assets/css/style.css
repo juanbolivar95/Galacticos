@@ -12,6 +12,30 @@ body {
     main-galacticos
 ==================================================== */
 
+.bg-dark {
+    background-color: #090b0c!important;
+}
+
+.sticky-top-players {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+    background-color: #fefefe!important;
+    -webkit-box-shadow: 0 0 9px 0 rgba(0, 0, 0, .3);
+    box-shadow: 0 0 9px 0 rgba(0, 0, 0, .3);
+    width: 100%;
+}
+
+.sticky-top {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+    -webkit-box-shadow: 0 0 9px 0 rgba(0, 0, 0, .3);
+    box-shadow: 0 0 9px 0 rgba(0, 0, 0, .3);
+}
+
 .navbar {
     text-align: center;
     padding-bottom: 13px;
@@ -61,6 +85,22 @@ body {
     font-size: 20px;
     margin: 5px;
     color: #faca36;
+}
+
+.navbar #main-galacticos #main-top #social-networks a:nth-of-type(1) i:hover {
+    color: #00bb2d!important;
+}
+
+.navbar #main-galacticos #main-top #social-networks a:nth-of-type(2) i:hover {
+    color: #3b5998!important;
+}
+
+.navbar #main-galacticos #main-top #social-networks a:nth-of-type(3) i:hover {
+    color: #00acee!important;
+}
+
+.navbar #main-galacticos #main-top #social-networks a:nth-of-type(4) i:hover {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
 }
 
 .navbar #main-galacticos #main-top #button-line {
@@ -710,6 +750,19 @@ SOCIAL NETWORKS
     text-decoration: none;
 }
 
+#social-networks-gal .social-info span {
+    font-size: 20px;
+    font-weight: bolder!important;
+}
+
+#social-networks-gal .social-info span.seguidores {
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #d0d0d0;
+    font-weight: bolder!important;
+}
+
 #social-networks-gal .red-social-wha,
 #social-networks-gal .red-social-fac,
 #social-networks-gal .red-social-twi,
@@ -959,15 +1012,3 @@ QUERYS
         justify-content: none;
     }
 }
-
-
-/* @media(max-width: 320px) {
-    .balon {
-        top: 50%;
-        left: -5%;
-    }
-    .container-reload img {
-        top: 10%;
-        left: -50%;
-    }
-} */

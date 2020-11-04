@@ -44,43 +44,43 @@
         </div>
     </div>
 
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div id="logo-galacticos">
-                <a class="navbar-brand" href="#">
-                    <img src="assets/images/logo.png" class="img-fluid logo-main" alt=""> GALÁCTICOS
-                </a>
-            </div>
-            <div id="main-galacticos">
-                <div id="main-top">
-                    <div id="social-networks">
-                        <span>SIGUENOS</span>
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-youtube"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                    </div>
-                    <div id="button-line">
-                        <a href="">VER FUTBOL EN LINEA</a>
-                    </div>
-
+    <!-- <header> -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div id="logo-galacticos">
+            <a class="navbar-brand" href="#">
+                <img src="assets/images/logo.png" class="img-fluid logo-main" alt=""> GALÁCTICOS
+            </a>
+        </div>
+        <div id="main-galacticos">
+            <div id="main-top">
+                <div id="social-networks">
+                    <span>SIGUENOS</span>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
                 </div>
-                <div id="main-bottom">
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <div id="button-line">
+                    <a href="">VER FUTBOL EN LINEA</a>
+                </div>
+
+            </div>
+            <div id="main-bottom">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                       </button>
-                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                        <div class="navbar-nav">
-                            <a class="nav-link" href="./index.html">INICIO</a>
-                            <a class="nav-link" href="./players.html">JUGADORES</a>
-                            <a class="nav-link" href="#">PARTIDOS</a>
-                            <a class="nav-link active" href="./contact.html">CONTACTO</a>
-                        </div>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" href="./index.html">INICIO</a>
+                        <a class="nav-link" href="./players.html">JUGADORES</a>
+                        <a class="nav-link" href="#">PARTIDOS</a>
+                        <a class="nav-link active" href="./contact.html">CONTACTO</a>
                     </div>
                 </div>
             </div>
-        </nav>
-    </header>
+        </div>
+    </nav>
+    <!-- </header> -->
 
     <section id="contact">
         <div class="container">
