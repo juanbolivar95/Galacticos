@@ -171,7 +171,7 @@
             </li>
             <!-- </div> -->
         </ul>
-        <div class="tab-content" id="pills-tabContent">
+        <div class="tab-content" id="pills-tabContent" style="margin-bottom: 50px;">
 
             <div class="tab-pane fade show active" id="enero" role="tabpanel" aria-labelledby="enero-tab">
 
