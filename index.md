@@ -427,16 +427,16 @@
         <div class="owl-carousel mt-5">
             <div class="team-container">
                 <div class="team-item">
-                    <img src="assets/images/equipo.jpg" alt="" class="team-img">
+                    <img src="assets/images/players/mello.jpg" alt="" class="team-img">
                     <di class="overlay"></di>
                     <div class="team-info-person">
                         <p class="team-info-person-p">
-                            <span class="name-large">BOLIVAR</span>
-                            <span class="number">12</span>
-                            <span class="firt-name">BOLIVAR</span>
-                            <span class="name">JUAN DAVID</span>
+                            <span class="name-large">MEJIA</span>
+                            <span class="number">7 -</span>
+                            <span class="firt-name">MEJIA</span>
+                            <span class="name">DUVAN</span>
                         </p>
-                        <span class="position">Mediocampista</span>
+                        <span class="position">Delantero</span>
                     </div>
                     <div class="team-text">
                         <div class="row">
@@ -450,14 +450,14 @@
                             <div class="col-md-4">
                                 <div class="info-games">
                                     <span class="title-games">Goles</span>
-                                    <span class="number-games">3</span>
+                                    <span class="number-games">5</span>
                                     <span class="year-games">Año-2020</span>
                                 </div>
                             </div>
                             <div class="col-md-4">
                                 <div class="info-games">
                                     <span class="title-games">Asistencias</span>
-                                    <span class="number-games">4</span>
+                                    <span class="number-games">2</span>
                                     <span class="year-games">Año-2020</span>
                                 </div>
                             </div>
