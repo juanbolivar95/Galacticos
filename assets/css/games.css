@@ -8,6 +8,7 @@
     text-align: center;
     font-size: 15px;
     font-weight: bolder;
+    color: #343a40!important;
 }
 
 #result-games .nav {
@@ -60,6 +61,11 @@
     text-align: center;
     margin: 16px;
     padding: 11px;
+}
+
+.nav-pills .nav-link.active {
+    color: #fff;
+    background-color: #faca36;
 }
 
 .enfrentamiento-logo img {
