@@ -73,7 +73,7 @@
                     <div class="navbar-nav">
                         <a class="nav-link" href="./index.html">INICIO</a>
                         <a class="nav-link" href="./players.html">JUGADORES</a>
-                        <a class="nav-link" href="#">PARTIDOS</a>
+                        <a class="nav-link" href="./games.html">PARTIDOS</a>
                         <a class="nav-link active" href="./contact.html">CONTACTO</a>
                     </div>
                 </div>
@@ -172,6 +172,8 @@
                     </a>
                     <br>
                     <span>@galacticos2007</span>
+                    <br>
+                    <span>Seguidores: <small class="number">100.000</small></span>
                 </div>
             </div>
             <div class="col-md-2 red-social-fac ">
@@ -184,6 +186,8 @@
                     </a>
                     <br>
                     <span>@galacticos2007</span>
+                    <br>
+                    <span>Seguidores: <small class="number">100.000</small></span>
                 </div>
             </div>
             <div class="col-md-2 red-social-twi ">
@@ -196,6 +200,8 @@
                     </a>
                     <br>
                     <span>@galacticos2007</span>
+                    <br>
+                    <span>Seguidores: <small class="number">100.000</small></span>
                 </div>
             </div>
             <div class="col-md-2 red-social-ins ">
@@ -208,6 +214,8 @@
                     </a>
                     <br>
                     <span>@galacticos2007</span>
+                    <br>
+                    <span>Seguidores: <small class="number">100.000</small></span>
                 </div>
             </div>
         </div>

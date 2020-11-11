@@ -805,6 +805,8 @@
                     </a>
                     <br>
                     <span>@galacticos2007</span>
+                    <br>
+                    <span>Seguidores: <small class="number">100.000</small></span>
                 </div>
             </div>
             <div class="col-md-2 red-social-fac ">
@@ -817,6 +819,8 @@
                     </a>
                     <br>
                     <span>@galacticos2007</span>
+                    <br>
+                    <span>Seguidores: <small class="number">100.000</small></span>
                 </div>
             </div>
             <div class="col-md-2 red-social-twi ">
@@ -829,6 +833,8 @@
                     </a>
                     <br>
                     <span>@galacticos2007</span>
+                    <br>
+                    <span>Seguidores: <small class="number">100.000</small></span>
                 </div>
             </div>
             <div class="col-md-2 red-social-ins ">
@@ -841,6 +847,8 @@
                     </a>
                     <br>
                     <span>@galacticos2007</span>
+                    <br>
+                    <span>Seguidores: <small class="number">100.000</small></span>
                 </div>
             </div>
         </div>
