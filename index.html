@@ -69,7 +69,7 @@
                     <div class="navbar-nav">
                         <a class="nav-link active" href="./index.html">INICIO</a>
                         <a class="nav-link" href="./players.html">JUGADORES</a>
-                        <a class="nav-link" href="#">PARTIDOS</a>
+                        <a class="nav-link" href="./games.html">PARTIDOS</a>
                         <a class="nav-link" href="./contact.html">CONTACTO</a>
                     </div>
                 </div>
@@ -406,7 +406,6 @@
                 </div>
             </div>
 
-
         </div>
     </section>
 
@@ -674,31 +673,32 @@
 
     <section id="social-networks-gal">
         <h3>Sigue a <span>galácticos</span> en las redes sociales</h3>
-        <div class="row mt-4 text-center">
+        <div class="row mt-4">
             <div class=" col-md-2 red-social-wha ">
                 <div class="social-icon ">
                     <i class="fab fa-whatsapp "></i>
                 </div>
-                <div class="social-info">
+                <div class="social-info ">
                     <a href="https://web.whatsapp.com/" target="_blank">
-                        <!-- <span>Galácticos F.C.</span> -->
-                        <span>@galacticos2007</span>
+                        <span>Galácticos F.C.</span>
                     </a>
                     <br>
-                    <span class="seguidores">Seguidores: <small class="number">100.000</small></span>
+                    <span>@galacticos2007</span>
+                    <br>
+                    <span>Seguidores: <small class="number">100.000</small></span>
                 </div>
             </div>
             <div class="col-md-2 red-social-fac ">
                 <div class="social-icon ">
                     <i class="fab fa-facebook-f "></i>
                 </div>
-                <div class="social-info">
+                <div class="social-info ">
                     <a href="https://web.facebook.com/galacticos2007/live_videos/?ref=page_internal" target="_blank">
-                        <!-- <span>Galácticos F.C.</span> -->
-                        <span>@galacticos2007</span>
+                        <span>Galácticos F.C.</span>
                     </a>
                     <br>
-                    <span class="seguidores">Seguidores: <small class="number">100.000</small></span>
+                    <span>@galacticos2007</span>
+
                 </div>
             </div>
             <div class="col-md-2 red-social-twi ">
@@ -707,11 +707,10 @@
                 </div>
                 <div class="social-info">
                     <a href="https://twitter.com/" target="_blank">
-                        <!-- <span>Galácticos F.C.</span> -->
-                        <span>@galacticos2007</span>
+                        <span>Galácticos F.C.</span>
                     </a>
                     <br>
-                    <span class="seguidores">Seguidores: <small class="number">100.000</small></span>
+                    <span>@galacticos2007</span>
                 </div>
             </div>
             <div class="col-md-2 red-social-ins ">
@@ -720,11 +719,10 @@
                 </div>
                 <div class="social-info ">
                     <a href="https://www.instagram.com/?hl=es-la" target="_blank">
-                        <!-- <span>Galácticos F.C.</span> -->
-                        <span>@galacticos2007</span>
+                        <span>Galácticos F.C.</span>
                     </a>
                     <br>
-                    <span class="seguidores">Seguidores: <small class="number">100.000</small></span>
+                    <span>@galacticos2007</span>
                 </div>
             </div>
         </div>
@@ -741,13 +739,13 @@
                     </h5>
                     <ul class="list-unstyled text-small">
                         <li>
-                            <a class="text-muted" href="./players.html">
+                            <a class="text-muted" href="#">
                                 
                                 Juan David Bolivar
                             </a>
                         </li>
                         <li>
-                            <a class="text-muted" href="./players.html">
+                            <a class="text-muted" href="#">
                                 
                                 Juan David Bolivar
                                 
@@ -763,39 +761,39 @@
                     </h5>
                     <ul class="list-unstyled text-small">
                         <li>
-                            <a class="text-muted" href="./players.html">
+                            <a class="text-muted" href="#">
                                 
                                 Juan David Bolivar
                             </a>
                         </li>
                         <li>
-                            <a class="text-muted" href="./players.html">
-                                
-                                Juan David Bolivar
-                                
-                            </a>
-                        </li>
-                        <li>
-                            <a class="text-muted" href="./players.html">
-                                
-                                Juan David Bolivar
-                            </a>
-                        </li>
-                        <li>
-                            <a class="text-muted" href="./players.html">
+                            <a class="text-muted" href="#">
                                 
                                 Juan David Bolivar
                                 
                             </a>
                         </li>
                         <li>
-                            <a class="text-muted" href="./players.html">
+                            <a class="text-muted" href="#">
                                 
                                 Juan David Bolivar
                             </a>
                         </li>
                         <li>
-                            <a class="text-muted" href="./players.html">
+                            <a class="text-muted" href="#">
+                                
+                                Juan David Bolivar
+                                
+                            </a>
+                        </li>
+                        <li>
+                            <a class="text-muted" href="#">
+                                
+                                Juan David Bolivar
+                            </a>
+                        </li>
+                        <li>
+                            <a class="text-muted" href="#">
                                 
                                 Juan David Bolivar
                                 
@@ -811,42 +809,42 @@
                     </h5>
                     <ul class="list-unstyled text-small">
                         <li>
-                            <a class="text-muted" href="./players.html">
+                            <a class="text-muted" href="#">
                                 
                                 Juan David Bolivar
                                 
                             </a>
                         </li>
                         <li>
-                            <a class="text-muted" href="./players.html">
+                            <a class="text-muted" href="#">
                                 
                                 Juan David Bolivar
                                 
                             </a>
                         </li>
                         <li>
-                            <a class="text-muted" href="./players.html">
+                            <a class="text-muted" href="#">
                                 
                                 Juan David Bolivar
                                 
                             </a>
                         </li>
                         <li>
-                            <a class="text-muted" href="./players.html">
+                            <a class="text-muted" href="#">
                                 
                                 Juan David Bolivar
                                 
                             </a>
                         </li>
                         <li>
-                            <a class="text-muted" href="./players.html">
+                            <a class="text-muted" href="#">
                                 
                                 Juan David Bolivar
                                 
                             </a>
                         </li>
                         <li>
-                            <a class="text-muted" href="./players.html">
+                            <a class="text-muted" href="#">
                                 
                                 Juan David Bolivar
                                 
@@ -862,42 +860,42 @@
                     </h5>
                     <ul class="list-unstyled text-small">
                         <li>
-                            <a class="text-muted" href="./players.html">
+                            <a class="text-muted" href="#">
                                 
                                 Juan David Bolivar
                                 
                             </a>
                         </li>
                         <li>
-                            <a class="text-muted" href="./players.html">
+                            <a class="text-muted" href="#">
                                 
                                 Juan David Bolivar
                                 
                             </a>
                         </li>
                         <li>
-                            <a class="text-muted" href="./players.html">
+                            <a class="text-muted" href="#">
                                 
                                 Juan David Bolivar
                                 
                             </a>
                         </li>
                         <li>
-                            <a class="text-muted" href="./players.html">
+                            <a class="text-muted" href="#">
                                 
                                 Juan David Bolivar
                                 
                             </a>
                         </li>
                         <li>
-                            <a class="text-muted" href="./players.html">
+                            <a class="text-muted" href="#">
                                 
                                 Juan David Bolivar
                                 
                             </a>
                         </li>
                         <li>
-                            <a class="text-muted" href="./players.html">
+                            <a class="text-muted" href="#">
                                 
                                 Juan David Bolivar
                                 
@@ -928,12 +926,6 @@
     <script src="assets/js/owl.carousel.min.js "></script>
     <script src="assets/js/counter/jquery.waypoints.min.js"></script>
     <script src="assets/js/counter/counterup.js"></script>
-    <script>
-        $('.number').countUp({
-            delay: 10,
-            time: 1500
-        });
-    </script>
     <script src="assets/js/global.js "></script>
 
 </body>

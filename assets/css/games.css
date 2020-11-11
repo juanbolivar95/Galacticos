@@ -1,0 +1,96 @@
+#result-games {
+    padding: 3rem;
+}
+
+#result-games .nav-link {
+    height: 4rem;
+    width: 10.4rem;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+#result-games .nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+#result-games .games {
+    border-bottom: 1px solid #ededed;
+    padding: 1rem;
+}
+
+#result-games .games:hover {
+    box-shadow: 0 0.1rem 0.2rem 0 rgba(0, 0, 0, .15);
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+}
+
+.horario {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cantidad-partidos h5,
+.cantidad-partidos h6 {
+    margin-top: 1.5rem;
+    margin-right: 45px;
+}
+
+.cantidad-partidos {
+    border-right: 1px solid #ededed;
+}
+
+.enfrentamiento {
+    display: flex;
+    justify-content: center;
+}
+
+.result-games-row {
+    background: #ededed;
+    height: 50px;
+    width: 60px;
+    text-align: center;
+    margin: 16px;
+    padding: 11px;
+}
+
+.enfrentamiento-logo img {
+    border-radius: 100%;
+}
+
+.enfrentamiento-logo small {
+    display: none;
+}
+
+@media (max-width: 767px) {
+    .cantidad-partidos h5,
+    .cantidad-partidos h6 {
+        font-size: 13px;
+        text-align: center;
+    }
+    .enfrentamiento-logo {
+        margin: 20px;
+    }
+    .enfrentamiento-logo small {
+        display: block;
+    }
+    .enfrentamiento-logo span {
+        display: none;
+    }
+    .result-games-row {
+        width: auto;
+        height: auto;
+        margin: auto;
+    }
+    .cantidad-partidos {
+        border-right: none;
+    }
+}

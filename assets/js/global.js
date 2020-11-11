@@ -54,28 +54,57 @@ $(document).ready(function() {
     /* ===========================================================
      carousel
     =============================================================*/
-    $('.owl-carousel').owlCarousel({
-        loop: true,
-        autoplay: true,
-        autoplayHoverPause: true,
-        margin: 10,
-        responsiveClass: true,
-        responsive: {
-            0: {
-                items: 1,
-                nav: true
-            },
-            600: {
-                items: 3,
-                nav: false
-            },
-            1000: {
-                items: 3,
-                nav: true,
-                loop: false
+    var pathname = window.location.pathname;
+    var filepath = pathname;
+    var filenameWithExtension = filepath.replace(/^.*[\\\/]/, '');
+
+    if (filenameWithExtension == 'index.html') {
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            autoplay: true,
+            autoplayHoverPause: true,
+            margin: 10,
+            responsiveClass: true,
+            responsive: {
+                0: {
+                    items: 1,
+                    nav: true
+                },
+                600: {
+                    items: 3,
+                    nav: false
+                },
+                1000: {
+                    items: 3,
+                    nav: true,
+                    loop: false
+                }
             }
-        }
-    });
+        });
+    } else if (filenameWithExtension == 'games.html') {
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            // autoplay: true,
+            // autoplayHoverPause: true,
+            margin: 10,
+            responsiveClass: true,
+            responsive: {
+                0: {
+                    items: 8,
+                    // nav: true
+                },
+                600: {
+                    items: 8,
+                    nav: false
+                },
+                1000: {
+                    items: 8,
+                    // nav: true,
+                    loop: false
+                }
+            }
+        });
+    }
 
     /* ===========================================================
      query para dar estilo al bajar los enlaces
@@ -99,14 +128,9 @@ $(document).ready(function() {
     numeros en movimientos statistics
     =================================================================*/
 
-    $('[data-toggle="counter-up"]').counterUp({
+    $('.number').countUp({
         delay: 10,
-        time: 1000
+        time: 100
     });
 
-    if (jQuery().counterUp) {
-        $('[data-counter-up]').counterUp({
-            delay: 20,
-        });
-    }
 });
