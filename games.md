@@ -72,8 +72,8 @@
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
                         <a class="nav-link" href="./index.html">INICIO</a>
-                        <a class="nav-link active" href="./players.html">JUGADORES</a>
-                        <a class="nav-link" href="#">PARTIDOS</a>
+                        <a class="nav-link" href="./players.html">JUGADORES</a>
+                        <a class="nav-link active" href="#">PARTIDOS</a>
                         <a class="nav-link" href="./contact.html">CONTACTO</a>
                     </div>
                 </div>
