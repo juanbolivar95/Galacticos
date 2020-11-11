@@ -9,6 +9,8 @@
     font-size: 15px;
     font-weight: bolder;
     color: #343a40!important;
+    background-color: #e0e0de;
+    margin-left: 5px;
 }
 
 #result-games .nav {
@@ -63,7 +65,7 @@
     padding: 11px;
 }
 
-.nav-pills .nav-link.active {
+#result-games .nav-link.active {
     color: #fff;
     background-color: #faca36;
 }
