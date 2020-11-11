@@ -944,7 +944,7 @@ QUERYS
         border-left: none;
     }
     .banner {
-        background-image: url(../images/banner2.jpg);
+        background-image: url(../images/banner-nuevo.jpg);
         background-size: 100% 533px;
         background-attachment: scroll;
         height: 529px;
@@ -955,7 +955,7 @@ QUERYS
         top: 249px;
         left: 0;
         right: 0;
-        bottom: -140px;
+        bottom: -300px;
         content: '';
         opacity: .4;
         width: 100%;
@@ -976,7 +976,7 @@ QUERYS
         padding: 1rem;
     }
     #directos h1 span {
-        font-size: 47px;
+        font-size: 38px;
         color: rgb(250, 202, 54);
         text-transform: uppercase;
     }
@@ -1003,6 +1003,10 @@ QUERYS
     }
     #statistics {
         height: auto;
+    }
+    #social-networks-gal .social-info span {
+        font-size: 13px;
+        font-weight: bolder!important;
     }
     #social-networks-gal .red-social-wha,
     #social-networks-gal .red-social-fac,
